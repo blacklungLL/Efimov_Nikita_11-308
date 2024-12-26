@@ -31,4 +31,4 @@ jobs:
         working-directory: ${{github.workspace}}/build
         run: >
           ctest -VV -C $BUILD_TYPE -D ExperimentalMemCheck --output-on-failure 
-          --overwrite MemoryCheckCommandOptions="--tool=memcheck --leak-check=full --error-exitcode=100"
+          --overwrite MemoryCheckCommandOptions="--tool=memcheck --leak-check=full --error-exitcode=100" 
