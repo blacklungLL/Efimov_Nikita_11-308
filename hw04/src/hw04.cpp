@@ -29,7 +29,7 @@ std::size_t hw04(const int* input_array, std::size_t elem_count)
 
         out_data[current_index] = input_array[i];
         current_index++;
-    }
+    } 
 
     std::size_t sum = 0;
     for(std::size_t i = 0; i < current_index; i++){
